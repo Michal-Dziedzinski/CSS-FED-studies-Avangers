@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  background-color: #000;
+}
+
+/****************************/
+
+.avengers-baner {
+  max-width: 1400px;
+  height: 704px;
+  margin: 0 auto;
+  background: #fff url(Avengers-Infinity-War2.jpg) no-repeat 50% 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.black-widow {
+  width: 180px;
+  height: 180px;
+  background: url(black-widow.jpg) no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gamora {
+  width: 152px;
+  height: 174px;
+  background: url(gamora.jpg) no-repeat;
+  position: absolute;
+  top: 385px;
+  left: 50%;
+  transform: translate(222px, 0);
+}
+
+.jewels {
+  width: 244px;
+  height: 92px;
+  background: url(jewels.jpg) no-repeat;
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translate(-358px, 0);
+}
+
+/******** Zadanie ***********/
+
+@media (max-width: 700px) {
+  .avengers-baner {
+    height: 352px;
+    background-size: 700px auto;
+  }
+  .black-widow {
+    width: 90px;
+    height: 90px;
+    background-size: 90px auto;
+  }
+  .gamora {
+    width: 76px;
+    height: 87px;
+    background-size: 76px auto;
+    top: 193px;
+    transform: translate(111px, 0);
+  }
+  .jewels {
+    width: 122px;
+    height: 44px;
+    background-size: 122px auto;
+    top: 18px;
+    transform: translate(-179px, 0);
+  }
+}
+
+@media (max-width: 480px) {
+  .avengers-baner {
+    background-size: 100vw auto;
+    height: 0;
+    padding-top: 50.285714%
+  }
+  .black-widow {
+    width: 12.85714vw;
+    height: 12.85714vw;
+    background-size: 12.85714vw auto;
+  }
+  .gamora {
+    width: 10.85714vw;
+    height: 12.42857vw;
+    background-size: 10.85714vw auto;
+    top: 27.57143vw;
+    transform: translate(15.85714vw, 0);
+  }
+  .jewels {
+    width: 17.42857vw;
+    height: 6.28571vw;
+    background-size: 17.42857vw auto;
+    top: 2.57143vw;
+    transform: translate(-25.57143vw, 0);
+  }
+}
