@@ -196,27 +196,27 @@ body {
 
 @media (max-width: 480px) {
   .avengers-baner {
-    background-size: 100vw auto;
+    background-size: 100% auto;
     height: 0;
     padding-top: 50.285714%
   }
   .black-widow {
-    width: 12.85714vw;
-    height: 12.85714vw;
-    background-size: 12.85714vw auto;
+    width: 13%;
+    height: 26%;
+    background-size: 100% auto;
   }
   .gamora {
-    width: 10.85714vw;
-    height: 12.42857vw;
-    background-size: 10.85714vw auto;
-    top: 27.57143vw;
-    transform: translate(15.85714vw, 0);
+    width: 11%;
+    height: 24%;
+    background-size: 100% auto;
+    top: 55%;
+    transform: translate(142%, 0);
   }
   .jewels {
-    width: 17.42857vw;
-    height: 6.28571vw;
-    background-size: 17.42857vw auto;
-    top: 2.57143vw;
-    transform: translate(-25.57143vw, 0);
+    width: 17%;
+    height: 13%;
+    background-size: 100% auto;
+    top: 5.5%;
+    transform: translate(-146%, 0);
   }
 }
